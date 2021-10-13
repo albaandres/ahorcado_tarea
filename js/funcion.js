@@ -1,6 +1,6 @@
 
-//alert("Bienvenido al ahorcado");
-//document.querySelector("blur");
+alert("Bienvenido al ahorcado");
+
 var palabra = document.getElementById("palabra");
 let letra= document.getElementById("letra");
 let aciertos= document.getElementById("aciertos");
@@ -51,7 +51,7 @@ function buscaCarater(){
     }
     
     if(palabra.value.toUpperCase()==aciertos.value){
-        alert("Has adivinado la palabra");
+        alert("Has adivinado la palabra: " + palabra.value);
     }
 }
 
